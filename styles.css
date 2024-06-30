@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 14px;
+    font-family: "Roboto",sans-serif;
+    padding-inline: 15%;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-top: 6px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 6px;
+}
+
+.links{
+    gap: 8px;
+    display: flex;
+}
+
+
+.top2{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: auto;
+    padding-bottom: 50px;
+}
+
+.left2{
+    margin-top: 50px;
+    width: 40%;
+}
+
+.text1,text2{
+    text-align: left;
+}
+
+.text1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.text2{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 8px;
+    width: 110%;
+}
+
+.img1{
+    margin-left: 10px;
+    width: 450px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+button{
+    background-color: #3882f6;
+    font-family: "Roboto",sans-serif;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 10px;
+    padding-inline: 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.layer2{
+    font-family: "Roboto",sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 30px;
+
+}
+
+h1{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.img2{
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    border-color: #3882f6;
+}
+
+h2{
+    font-size: 12px;
+    color: #1f2937;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    font-weight: 250;
+}
+
+.subtext{
+    margin-left: 0%;
+    width: 863.33px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 25px;
+}
+
+.layer3{
+    font-family: "Roboto",sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 150px;
+    background-color: #e5e7eb ;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+h3{
+    text-align: end;
+    padding: 0;
+    margin: 0;
+}
